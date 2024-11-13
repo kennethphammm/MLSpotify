@@ -1,0 +1,25 @@
+spotify-popularity-prediction/
+├── data/                           # Folder for datasets
+│   ├── raw/                        # Raw data downloaded from Spotify API
+│   ├── processed/                  # Processed/cleaned data for model training
+│   └── spotify_tracks_data.csv     # Initial data file (could be in raw/ or processed/)
+├── notebooks/                      # Jupyter notebooks for exploratory data analysis (EDA) and experiments
+│   ├── 01_data_collection.ipynb    # Notebook for data collection
+│   ├── 02_data_preprocessing.ipynb # Notebook for data preprocessing
+│   └── 03_model_training.ipynb     # Notebook for training and evaluating models
+├── src/                            # Source code for the project
+│   ├── __init__.py
+│   ├── data_collection.py          # Script for data collection from Spotify API
+│   ├── preprocessing.py            # Data cleaning and feature engineering scripts
+│   ├── modeling.py                 # Model training, testing, and evaluation scripts
+│   └── utils.py                    # Utility functions, e.g., helper functions for data processing
+├── models/                         # Folder to save trained models
+│   └── model.pkl                   # Example trained model file
+├── config/                         # Configuration files
+│   └── config.yaml                 # Config file for storing API keys, paths, hyperparameters, etc.
+├── reports/                        # Folder for storing project reports
+│   └── final_report.md             # Final report summarizing findings and results
+├── requirements.txt                # List of dependencies (e.g., spotipy, pandas, scikit-learn)
+├── README.md                       # Project overview, instructions, and general documentation
+├── .gitignore                      # Specifies files and folders to ignore in version control
+└── LICENSE                         # License for the project (if applicable)
